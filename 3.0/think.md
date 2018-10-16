@@ -354,7 +354,7 @@ think.isEmpty(null);
 function test() {
   const defer = think.defer();
   setTimeout(function() {
-    defer.reslove('1');
+    defer.resolve('1');
   },1000)
   return defer.promise
 }
